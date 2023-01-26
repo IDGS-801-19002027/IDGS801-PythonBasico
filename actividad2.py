@@ -26,9 +26,13 @@ def main():
     while opt != -1:
         
         if (opt == 0):
+            print('Adiós')
             break
+        #os.system('clear')
+
         else:
-            opt = int(input('1.- Suma\n 2.- Resta\n 3.- Multiplicación\n 4.- División\n 0.- Salir \n'))
+            print("Ingrese alguna de las siguientes opciones:")
+            opt = int(input('1. -Suma\n 2.- Resta\n 3.- Multiplicación\n 4.- División\n 0.- Salir \n'))
             n1 = int(input('Ingrese el primer número: '))
             n2 = int(input('Ingrese el segundo número: '))
             ob = OperasBas(n1,n2)
