@@ -21,6 +21,7 @@ class OperasBas:
 def main():
     obj=OperasBas(3,2)
     obj.suma()
+    print("La suma es: {}".format(obj.res))
 
 if __name__ == '__main__':
     main()
